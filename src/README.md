@@ -14,6 +14,11 @@ better to join threads.
 
 If a thread is sleeping, and an interrupt request is sent, it throws an exception.
 
+Race condition - when multiple threads are modifying the same object.
+
+If one thread changes the data of an object but isn't read by another thread, this is known as a visibility problem.
+
+Code that is safely executed in parallel are known as thread-safe code.  
 
 
 
